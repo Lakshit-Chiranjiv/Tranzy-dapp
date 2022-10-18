@@ -23,4 +23,12 @@ contract Tranzy {
 
         emit Transfer(msg.sender, receiver, amount, message, block.timestamp);
     }
+
+    function getAllTransactions() public view returns(TransactionStruct[] memory){
+        return allTransactions;
+    }
+
+    function getTransactionCount() public view returns(uint){
+        return transactionCount;
+    }
 }
