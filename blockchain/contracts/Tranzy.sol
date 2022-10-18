@@ -14,6 +14,13 @@ contract Tranzy {
         string message;
         uint timestamp;
     }
-    
 
+    TransactionStruct[] allTransactions;
+
+    function makeTransaction(address payable receiver, uint amount, string memory message) public{
+        transactionCount++;
+        allTransactions.push(TransactionStruct(msg.sender,receiver,amount,message,block.timestamp));
+
+        emit Transfer(msg.sender, receiver, amount, message, block.timestamp);
+    }
 }
