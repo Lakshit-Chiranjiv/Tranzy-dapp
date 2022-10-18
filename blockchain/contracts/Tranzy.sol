@@ -7,6 +7,13 @@ contract Tranzy {
 
     event Transfer(address from, address to, uint amount, string message, uint timestamp);
 
+    struct TransactionStruct{
+        address sender;
+        address receiver;
+        uint amount;
+        string message;
+        uint timestamp;
+    }
     
 
 }
