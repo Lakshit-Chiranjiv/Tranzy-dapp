@@ -1,9 +1,11 @@
 <script>
+  import Navbar from "./components/Navbar.svelte";
+
 
 </script>
 
 <main>
-  <h1>Tranzy Dapp</h1>
+  <Navbar/>
 </main>
 
 <style>
