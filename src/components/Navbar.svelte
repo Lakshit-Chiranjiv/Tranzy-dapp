@@ -7,7 +7,7 @@
 <main>
     <nav class="nav">
         <img src={tranzyLogo} alt="logo">
-        <h3>Hello {userAddress}</h3>
+        <h3>Hello {userAddress} ✋</h3>
     </nav>
 </main>
 
