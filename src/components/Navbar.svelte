@@ -14,16 +14,14 @@
 <style>
     .nav{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        padding: 0 2.5rem;
+        box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.5);
     }
 
     .nav img{
-        width: 360px;
+        width: 280px;
         filter: drop-shadow(0 0 1.5em #5ea1e5aa);
     }
-
-    /* .nav img:hover{
-        
-    } */
 </style>
