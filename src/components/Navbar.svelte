@@ -5,7 +5,7 @@
 <main>
     <nav class="nav">
         <img src={tranzyLogo} alt="logo">
-        <h3>Hello User</h3>
+        <h3>Hello User address</h3>
     </nav>
 </main>
 
@@ -14,10 +14,14 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        gap: 30px;
     }
 
     .nav img{
         width: 360px;
+        filter: drop-shadow(0 0 1.5em #5ea1e5aa);
     }
+
+    /* .nav img:hover{
+        
+    } */
 </style>
