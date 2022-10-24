@@ -1,6 +1,8 @@
 <script>
   import Navbar from "./components/Navbar.svelte";
-
+  let userAddress = '';
+  // @ts-ignore
+  const { ethereum } = window 
 
 </script>
 
